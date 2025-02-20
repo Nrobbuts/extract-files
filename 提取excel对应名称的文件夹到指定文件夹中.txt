@@ -1,0 +1,25 @@
+import pandas as pd
+import os
+import shutil
+excel_file = r"xxx"# 指定的excel表格路径
+df = pd.read_excel(excel_file)
+file_names = df['filename'].tolist()# filename为表格所需要提取列名称
+source_folder = r"xxx" # 源文件夹路径
+destination_folder = r"xxx" # 目标文件夹路径
+if not os.path.exists(destination_folder):
+    os.makedirs(destination_folder)
+for file_name in file_names:
+    source_folder_path = os.path.join(source_folder, str(file_name)) 
+    destination_folder_path = os.path.join(destination_folder, str(file_name))  
+    if not os.path.isdir(source_folder_path):
+        print(f"错误: {source_folder_path} 不是一个文件夹，无法复制")
+        continue  # 跳过该文件夹
+    if os.path.exists(destination_folder_path):
+        print(f"目标文件夹 {destination_folder_path} 已存在，跳过复制")
+    else:
+        try:
+            shutil.copytree(source_folder_path, destination_folder_path)
+            print(f'文件夹 {file_name} 已成功复制到 {destination_folder}')
+        except Exception as e:
+            print(f"复制文件夹 {file_name} 失败: {e}")
+
