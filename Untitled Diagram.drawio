@@ -1,9 +1,73 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
   <diagram name="Page-1" id="ucDajJYV0-X2pZXnj3SJ">
-    <mxGraphModel>
+    <mxGraphModel dx="1378" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-47" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zwf3oAZDcCZwwoacqvdE-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Population within UKB-PPP project&#xa;(N=52,995)" vertex="1">
+          <mxGeometry height="100" width="260" x="138" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Excluded N=3,164&#xa;&#xa;With missing covariate data or mismatch self-reported and genetic sex or ten or more third-degree relatives (N=3,164)" vertex="1">
+          <mxGeometry height="246" width="260" x="480" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-45" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zwf3oAZDcCZwwoacqvdE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="N=52,891" vertex="1">
+          <mxGeometry height="80" width="258" x="139" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Excluded N=104&#xa;1. With prior I60-62 (N=101)&#xa;2. With Anticoagulant use within 3-month post-event window(N=3)" vertex="1">
+          <mxGeometry height="126" width="260" x="480" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-44" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="Zwf3oAZDcCZwwoacqvdE-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Population in final analyses&#xa;(N=49,727)" vertex="1">
+          <mxGeometry height="90" width="256" x="140" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-41" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zwf3oAZDcCZwwoacqvdE-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-42" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Zwf3oAZDcCZwwoacqvdE-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Study Centers&#xa;(England, N=44,036)" vertex="1">
+          <mxGeometry height="80" width="205" x="171.5" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Study Centers&#xa;(Scotland &amp; Wales, N=5,691)" vertex="1">
+          <mxGeometry height="102" width="225" x="540" y="1499" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-27" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Training set&#xa;(N=30,825)" vertex="1">
+          <mxGeometry height="78" width="228" x="23.5" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Internal validation set&#xa;(N=13,211)" vertex="1">
+          <mxGeometry height="78" width="219" x="293.5" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="External validation set&#xa;(N=5,691)" vertex="1">
+          <mxGeometry height="78" width="222" x="543" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-38" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-26" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Zwf3oAZDcCZwwoacqvdE-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-43" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.471;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zwf3oAZDcCZwwoacqvdE-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="268" y="1469" />
+              <mxPoint x="268" y="1469" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-46" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.891;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zwf3oAZDcCZwwoacqvdE-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zwf3oAZDcCZwwoacqvdE-48" edge="1" parent="1" source="Zwf3oAZDcCZwwoacqvdE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" target="Zwf3oAZDcCZwwoacqvdE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
